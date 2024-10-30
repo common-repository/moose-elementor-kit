@@ -1,0 +1,85 @@
+.mek-settings-page a {
+  --tw-text-opacity: 1;
+  color: rgba(var(--mek-base-content), var(--tw-text-opacity));
+}
+.mek-settings-page li, .mek-settings-page dd {
+  margin-bottom: 0;
+}
+.mek-settings-page hr {
+  border-bottom-width: 0px;
+  border-style: dashed;
+  --tw-border-opacity: 1;
+  border-color: rgba(var(--mek-base-200), var(--tw-border-opacity));
+}
+.mek-settings-page input[type=checkbox]:checked::before {
+  display: none;
+}
+.mek-settings-page input:disabled.mek-btn-primary {
+  --tw-border-opacity: 1;
+  border-color: rgba(var(--mek-primary-color), var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--mek-primary-color), var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(var(--mek-primary-content), var(--tw-text-opacity));
+}
+.mek-settings-page .mek-element-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--mek-base-color), var(--tw-bg-opacity));
+  padding: 1.5rem;
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.mek-settings-page .mek-pro-badge {
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--mek-primary-color), var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(var(--mek-primary-content), var(--tw-text-opacity));
+  position: absolute;
+  font-size: 10px;
+  left: -19px;
+  top: 2px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 8px 20px 2px;
+  transform: rotate(-45deg);
+}
+.mek-settings-page .mek-pro-badge::before {
+  content: "PRO";
+}
+
+.mek-notice {
+  border-left-color: #fcb92b;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+}
+.mek-notice a {
+  color: #fcb92b;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+.mek-notice a:hover {
+  text-decoration-thickness: 2px;
+}
+.mek-notice .mek-notice-inner-wrap {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: space-between;
+}
+.mek-notice .mek-notice-content {
+  padding-right: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mek-notice .mek-notice-content .mek-notice-title {
+  font-size: 1.5rem;
+}
+.mek-notice .mek-theme-screenshot img {
+  height: auto;
+  border: 1px solid #dedede;
+}

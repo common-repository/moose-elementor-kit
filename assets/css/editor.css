@@ -1,0 +1,61 @@
+.elementor-panel .mek-widget-icon,
+.elementor-control-type-section[class*=elementor-control-mek_] .elementor-panel-heading-title,
+.elementor-panel .elementor-control-mek_section_pro .elementor-panel-heading-title,
+.elementor-panel .elementor-control-mek_section_pro .elementor-panel-heading-toggle {
+  color: #fcb92b;
+}
+
+.elementor-control-type-section[class*=elementor-control-mek_]:after,
+.elementor-panel .mek-widget-icon:after {
+  content: "M";
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 2px;
+  background-color: #181830;
+  font-family: serif;
+}
+
+.elementor-panel .mek-widget-icon.mek-widget-pro-icon:after {
+  content: "PRO";
+  font-size: 8px;
+  width: 24px;
+  height: 14px;
+  line-height: 14px;
+}
+
+.elementor-panel .elementor-control-mek_control_get_pro .mek-pro-features ul {
+  margin-left: 16px;
+  margin-bottom: 12px;
+}
+.elementor-panel .elementor-control-mek_control_get_pro .mek-pro-features ul li {
+  list-style: circle;
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+.elementor-panel .elementor-control-mek_control_get_pro .mek-pro-features a {
+  color: #fcb92b;
+}
+
+.elementor-control[class*=mek-pro-notice-control] {
+  padding: 5px 0 15px 0 !important;
+}
+
+.elementor-panel .mek-pro-notice {
+  background-color: #f1f5f9;
+  color: #1d2733;
+  padding: 20px 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+.elementor-panel .mek-pro-notice a {
+  color: #fcb92b;
+}
